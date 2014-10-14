@@ -1,0 +1,18 @@
+<head>
+  <title>meteor-collectionfs-safari-mp3-test</title>
+</head>
+
+<body>
+  <h1>Welcome to meteor-collectionfs-safari-mp3-test!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button class="reload">Reload Mp3 File</button>
+  <div>
+    {{#each audios}}
+      {{_id}}  -  {{type}}  |  {{name}}  |  {{size}} |   <button class="play">Play</button> <button class="stop">Stop</button> <button class="settimeStart">SetTime Start</button> <button class="settime12">SetTime 12s</button> <a href="{{url}}" target="_blank">open in tab</a>
+    {{/each}}
+  </div>
+</template>
