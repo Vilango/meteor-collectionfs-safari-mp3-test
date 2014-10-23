@@ -8,7 +8,7 @@ blaze@2.0.2
 boilerplate-generator@1.0.1
 brentjanderson:buzz@1.1.4
 callback-hook@1.0.1
-cfs:access-point@0.0.0
+cfs:access-point@0.1.1
 cfs:base-package@0.0.0
 cfs:collection-filters@0.0.0
 cfs:collection@0.0.0
